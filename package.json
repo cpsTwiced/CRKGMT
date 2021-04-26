@@ -1,0 +1,9 @@
+{
+  "name"    : "CRK Guild Management Tool",
+  "version" : "0.1.1",
+  "main"    : "main.js",
+  "dependencies": {
+    "request-promise": "*",
+    "electron-prebuilt": "*"
+  }
+}
