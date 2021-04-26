@@ -1,0 +1,17 @@
+{
+  "Guild": {
+    "name": "람데오코",
+    "members": [
+      {
+        "name": "보라색파인애플",
+        "activityPoint": 0,
+        "damagePoint": 0
+      },
+      {
+        "name": "memberName2",
+        "activityPoint": 1,
+        "damagePoint": 1
+      }
+    ]
+  }
+}
