@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> CRK Guild Management Tool</title>
+        <!-- CSS Reset: Nomralize.css
+			 Author: Nicolas Gallagher
+		     URL: github.com/necolas/normalize.css
+		     Date accessed: 15 April 2021
+		-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header id="pg-header">
+            <h1>쿠키런: 킹덤 길드 관리</h1>
+        </header>
+        <main id="pg-main">
+            <div class="pg-main-part1">
+                <!-- must add guild name here from JSON file -->
+                <h3>길드: </h3>
+                <div class="toolbox">
+                    <!-- must specify icon source by some point -->
+                    <button id="add-member-button">
+                        <img src="img/plus.png" alt="plus button">
+                        <!-- <div class=button-text>
+                            <p>Add member</p>
+                        </div> -->
+                        <p>Add member</p>
+                    </button>
+                    <button id="delete-member-button">
+                        <img src="img/minus.png" alt="minus button">
+                        <!-- <div class=button-text>
+                            <p>Delete member</p>
+                        </div> -->
+                        <p>Delete member</p>
+                    </button>
+                </div>
+            </div>
+            <div class="pg-main-part2">
+                <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+                <table class="sortable">
+                    <tr>
+                        <th>이름</th>
+                        <th>활동 점수</th>
+                        <th>현재 토벌 기여도</th>
+                        <th>지난 토벌 기여도</th>
+                    </tr>
+                    <tr class="item">
+                        <td><p1>보라색파인애플</p1></td>
+                        <td>9999</td>
+                        <td>9999999</td>
+                        <td>9999999</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+    <script src="js/script.js"></script>
+</html>
